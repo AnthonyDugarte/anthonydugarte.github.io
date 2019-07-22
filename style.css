@@ -32,3 +32,8 @@ body > div {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+a.btn.btn-light.card-link > img {
+  height: 16px;
+  width: 16px;
+}
