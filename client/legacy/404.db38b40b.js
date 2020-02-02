@@ -1,0 +1,1 @@
+import{_ as s,a as t,b as a,c as r,i as n,s as i,d as o,S as u}from"./client.107375f4.js";function e(s){s.params,s.query;this.error(404,"Not found")}export default(function(e){function l(s){var u;return t(this,l),u=a(this,r(l).call(this)),n(o(u),s,null,null,i,{}),u}return s(l,u),l}());export{e as preload};
