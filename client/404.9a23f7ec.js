@@ -1,1 +1,0 @@
-import{S as s,i as r,s as t}from"./client.b00ee984.js";function e({params:s,query:r}){this.error(404,"Not found")}export default class extends s{constructor(s){super(),r(this,s,null,null,t,{})}}export{e as preload};
