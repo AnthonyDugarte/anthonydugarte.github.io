@@ -1,0 +1,1 @@
+import{b as s,d as t,e as a,f as r,i as n,s as e,g as i,S as o}from"./client.ffe894da.js";function u(s){s.params,s.query;this.error(404,"Not found")}export default(function(u){function f(s){var o;return t(this,f),o=a(this,r(f).call(this)),n(i(o),s,null,null,e,{}),o}return s(f,o),f}());export{u as preload};
