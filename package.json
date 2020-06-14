@@ -1,5 +1,12 @@
 {
-  "name": "grindsome-app",
+  "name": "anthonydugarte.github.io",
+  "description": "Source code of anthonydugarte.github.io",
+  "author": {
+    "name": "Anthony",
+    "email": "toonny1998@gmail.com",
+    "url": "https://anthonydugarte.github.io"
+  },
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "gridsome build",
