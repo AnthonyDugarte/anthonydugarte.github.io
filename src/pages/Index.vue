@@ -1,21 +1,111 @@
 <template>
   <Layout>
-    <div class="flex flex-col border rounded items-center justify-center p-2">
+    <div
+      class="personal flex flex-col border rounded items-center justify-center p-2"
+    >
       <g-image
         alt="Example image"
         src="~/favicon.png"
-        class="shadow-md rounded-full my-1 w-10/12 sm:w-9/12 md:w-6/12 lg:w-2/6"
+        class="shadow-md rounded-full my-1 bg-gray-100 w-10/12 sm:w-9/12 md:w-6/12 lg:w-2/6"
       />
 
-      <h1 class="text-3xl md:text-4xl xl:text-5xl my-2">
+      <h1 class="my-2 text-3xl md:text-4xl xl:text-6xl">
         <strong>
           Anthony Dugarte
         </strong>
       </h1>
 
-      <h2 class="text-base md:text-lg xl:text-xl my-1">
+      <h2 class="my-1 text-xl md:text-2xl xl:text-3xl">
         Software Dev & Student
       </h2>
+    </div>
+
+    <div>
+      <div
+        class="flex shadow-md mb-5 rounded-lg bg-gray-100 px-5 md:px-2 py-4 flex-col md:flex-row"
+      >
+        <g-image
+          alt="Example image"
+          src="~/favicon.png"
+          class="w-24 md:w-32 xl:w-40 shadow-inner rounded-full self-center my-4 md:mx-2"
+        />
+
+        <div class="flex-1 flex flex-col md:px-4">
+          <h3
+            class="text-lg md:text-xl xl:text-2xl mb-3 text-right md:text-right"
+          >
+            <strong>Systems Engineering</strong>
+          </h3>
+
+          <span class="flex-1 md:text-lg xl:text-xl">
+            I'm a second year Systems Engineering student at the Univerisdad de
+            los Andes, in Venezuela.
+          </span>
+        </div>
+      </div>
+
+      <div
+        class="flex shadow-md mb-5 rounded-lg bg-gray-100 px-5 md:px-2 py-4 flex-col md:flex-row"
+      >
+        <g-image
+          alt="Example image"
+          src="~/favicon.png"
+          class="w-24 md:w-32 xl:w-40 shadow-inner rounded-full self-center my-4 md:mx-2"
+        />
+        <div class="flex-1 flex flex-col md:px-4">
+          <h3 class="text-lg md:text-xl xl:text-2xl mb-3 text-right">
+            <strong>Competitive Programming</strong>
+          </h3>
+
+          <span class="flex-1 md:text-lg xl:text-xl">
+            I've participated on different Programming competititions at my
+            university.
+          </span>
+        </div>
+      </div>
+
+      <div
+        class="flex shadow-md mb-5 rounded-lg bg-gray-100 px-5 md:px-2 py-4 flex-col md:flex-row"
+      >
+        <g-image
+          alt="Example image"
+          src="~/favicon.png"
+          class="w-24 md:w-32 xl:w-40 shadow-inner rounded-full self-center my-4 md:mx-2"
+        />
+
+        <div class="flex-1 flex flex-col md:px-4">
+          <h3
+            class="text-lg md:text-xl xl:text-2xl mb-3 text-right md:text-right"
+          >
+            <strong>Developing games for fun</strong>
+          </h3>
+
+          <span class="flex-1 md:text-lg xl:text-xl">
+            my most beloved one has been: Pacman, I coded every single line of
+            it!
+          </span>
+        </div>
+      </div>
+
+      <div
+        class="flex shadow-md rounded-lg bg-gray-100 px-5 md:px-2 py-4 flex-col md:flex-row"
+      >
+        <g-image
+          alt="Example image"
+          src="~/favicon.png"
+          class="w-24 md:w-32 xl:w-40 shadow-inner rounded-full self-center my-4 md:mx-2"
+        />
+
+        <div class="flex-1 flex flex-col md:px-4">
+          <h3 class="text-lg md:text-xl xl:text-2xl mb-3 text-right">
+            <strong>What do I do?</strong>
+          </h3>
+
+          <span class="flex-1 md:text-lg xl:text-xl">
+            I've been making web and mobile apps for 2 years already.
+          </span>
+        </div>
+      </div>
     </div>
   </Layout>
 </template>
@@ -29,7 +119,7 @@ export default {
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
+.personal {
+  min-height: calc(100vh - 5.5rem);
 }
 </style>
