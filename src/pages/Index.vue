@@ -5,8 +5,8 @@
     >
       <g-image
         alt="Example image"
-        src="~/favicon.png"
-        class="shadow-md rounded-full my-1 bg-gray-100 w-10/12 sm:w-9/12 md:w-6/12 lg:w-2/6"
+        src="~/assets/img/avatar.svg"
+        class="my-1 w-10/12 sm:w-9/12 md:w-6/12 lg:w-2/6"
       />
 
       <h1 class="my-2 text-3xl md:text-4xl xl:text-6xl">
@@ -20,14 +20,14 @@
       </h2>
     </div>
 
-    <div>
-      <div
+    <ul>
+      <li
         class="flex shadow-md mb-5 rounded-lg bg-gray-100 px-5 md:px-2 py-4 flex-col md:flex-row"
       >
         <g-image
-          alt="Example image"
-          src="~/favicon.png"
-          class="w-24 md:w-32 xl:w-40 shadow-inner rounded-full self-center my-4 md:mx-2"
+          alt="Universidad de los Andes"
+          src="~/assets/img/ula.png"
+          class="w-24 md:w-32 xl:w-40 shadow-inner bg-gray-100 rounded-full self-center my-4 md:mx-2"
         />
 
         <div class="flex-1 flex flex-col md:px-4">
@@ -42,15 +42,15 @@
             los Andes, in Venezuela.
           </span>
         </div>
-      </div>
+      </li>
 
-      <div
+      <li
         class="flex shadow-md mb-5 rounded-lg bg-gray-100 px-5 md:px-2 py-4 flex-col md:flex-row"
       >
         <g-image
-          alt="Example image"
-          src="~/favicon.png"
-          class="w-24 md:w-32 xl:w-40 shadow-inner rounded-full self-center my-4 md:mx-2"
+          alt="ICPC"
+          src="~/assets/img/icpc.png"
+          class="w-24 md:w-32 xl:w-40 shadow-inner bg-gray-100 rounded-full self-center my-4 md:mx-2"
         />
         <div class="flex-1 flex flex-col md:px-4">
           <h3 class="text-lg md:text-xl xl:text-2xl mb-3 text-right">
@@ -58,19 +58,19 @@
           </h3>
 
           <span class="flex-1 md:text-lg xl:text-xl">
-            I've participated on different Programming competititions at my
+            I've participated on Competitive Programming contests at my
             university.
           </span>
         </div>
-      </div>
+      </li>
 
-      <div
+      <li
         class="flex shadow-md mb-5 rounded-lg bg-gray-100 px-5 md:px-2 py-4 flex-col md:flex-row"
       >
         <g-image
-          alt="Example image"
-          src="~/favicon.png"
-          class="w-24 md:w-32 xl:w-40 shadow-inner rounded-full self-center my-4 md:mx-2"
+          alt="Pacman"
+          src="~/assets/img/pacman.png"
+          class="w-24 md:w-32 xl:w-40 shadow-inner bg-gray-100 rounded-full self-center my-4 md:mx-2"
         />
 
         <div class="flex-1 flex flex-col md:px-4">
@@ -81,19 +81,21 @@
           </h3>
 
           <span class="flex-1 md:text-lg xl:text-xl">
-            my most beloved one has been: Pacman, I coded every single line of
-            it!
+            my most beloved one has been:
+            <a href="https://github.com/AnthonyDugarte/PacMan" target="_blank"
+              ><strong>Pacman</strong></a
+            >, I coded every single line of it!
           </span>
         </div>
-      </div>
+      </li>
 
-      <div
+      <li
         class="flex shadow-md rounded-lg bg-gray-100 px-5 md:px-2 py-4 flex-col md:flex-row"
       >
         <g-image
           alt="Example image"
           src="~/favicon.png"
-          class="w-24 md:w-32 xl:w-40 shadow-inner rounded-full self-center my-4 md:mx-2"
+          class="w-24 md:w-32 xl:w-40 shadow-inner bg-gray-100 rounded-full self-center my-4 md:mx-2"
         />
 
         <div class="flex-1 flex flex-col md:px-4">
@@ -102,11 +104,12 @@
           </h3>
 
           <span class="flex-1 md:text-lg xl:text-xl">
-            I've been making web and mobile apps for 2 years already.
+            I do web and mobile apps, I have been working through all the Stack
+            for 2 years already.
           </span>
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </Layout>
 </template>
 
