@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-gray-300">
-    <div class="min-h-screen flex flex-col pb-5">
-      <header class="mb-2 px-8 shadow-md">
+  <div>
+    <div class="min-h-screen flex flex-col">
+      <header class="mb-2 px-8 shadow-md bg-gray-300">
         <div class="container flex mx-auto justify-between items-center h-20">
           <strong>
             <g-link to="/" class="text-lg md:text-xl xl:text-2xl">
@@ -21,9 +21,11 @@
         </div>
       </header>
 
-      <div class="container mx-auto px-5">
+      <body class="flex-1 container mx-auto px-5">
         <slot />
-      </div>
+      </body>
+
+      <Footer />
     </div>
   </div>
 </template>
@@ -35,3 +37,11 @@ query {
   }
 }
 </static-query>
+
+<script>
+import Footer from './Footer'
+
+export default {
+  components: { Footer },
+}
+</script>
