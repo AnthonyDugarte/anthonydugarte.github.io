@@ -1,12 +1,41 @@
 {
-  "parser": "vue-eslint-parser",
+  "root": true,
   "parserOptions": {
-    "parser": "babel-eslint"
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
-  "plugins": ["vue"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  },
+
   "extends": [
     "eslint:recommended",
-    "plugin:vue/essential",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "airbnb",
+    "airbnb/hooks",
+    "prettier",
+    "prettier/react",
     "plugin:prettier/recommended"
-  ]
+  ],
+
+  "rules": {
+    "prettier/prettier": ["error", {}, { "usePrettierrc": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": "off",
+    "no-console": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
 }

@@ -1,19 +1,11 @@
 module.exports = {
-  purge: {
-    enabled: process.env.NODE_ENV === 'production',
-    content: [
-      'src/components/**/*.vue',
-      'src/layouts/**/*.vue',
-      'src/pages/**/*.vue',
-      'gridsome.config.js',
-    ],
-  },
+  purge: ['./pages/**/*.js', './components/**/*.js'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
   variants: {
-    textColor: ['responsive', 'hover', 'focus', 'visited'],
+    extend: {},
   },
-
   plugins: [],
 }
