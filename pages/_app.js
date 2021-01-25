@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import 'tailwindcss/tailwind.css'
 
 import SEO from '../components/seo'
@@ -70,9 +71,11 @@ function MyApp({ Component, pageProps }) {
 
           <div className="mx-auto md:mx-0 flex space-x-8">
             {contacts.map(({ src, href, alt }) => (
-              <a href={href} target="_blank" rel="noreferrer">
-                <img src={src} className="w-6 h-6" alt={alt} />
-              </a>
+              <Link href={href}>
+                <a target="_blank" rel="noreferrer">
+                  <img src={src} className="w-6 h-6" alt={alt} />
+                </a>
+              </Link>
             ))}
           </div>
         </footer>
