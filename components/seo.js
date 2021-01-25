@@ -50,6 +50,22 @@ export default function SEO({ title, description, image, article }) {
         />
       )}
       {/* {seo.image && <meta key="twitter:image"name="twitter:image" content={seo.image} />} */}
+
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=GTM-5QS7WKQ"
+      />
+
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-5QS7WKQ');
+        `,
+        }}
+      />
     </Head>
   )
 }
