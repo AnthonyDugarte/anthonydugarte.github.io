@@ -13,6 +13,18 @@ export default function SEO({ title, description, image, article }) {
 
   return (
     <Head>
+      {/* Google Tag Manager */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5QS7WKQ');`,
+        }}
+      />
+      {/* End Google Tag Manager */}
+
       <title key="title">{seo.title}</title>
       <meta key="description" name="description" content={seo.description} />
       {/* <meta key="image" name="image" content={seo.image} /> */}
@@ -51,11 +63,11 @@ export default function SEO({ title, description, image, article }) {
       )}
       {/* {seo.image && <meta key="twitter:image"name="twitter:image" content={seo.image} />} */}
 
-      <script
+      {/* Google analytics */}
+      {/* <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-GMDSNYHR5E"
       />
-
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -65,7 +77,7 @@ export default function SEO({ title, description, image, article }) {
             gtag('config', 'G-GMDSNYHR5E');
         `,
         }}
-      />
+      /> */}
     </Head>
   )
 }
