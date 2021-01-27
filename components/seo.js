@@ -53,7 +53,7 @@ export default function SEO({ title, description, image, article }) {
 
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=GTM-5QS7WKQ"
+        src="https://www.googletagmanager.com/gtag/js?id=G-GMDSNYHR5E"
       />
 
       <script
@@ -62,7 +62,7 @@ export default function SEO({ title, description, image, article }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GTM-5QS7WKQ');
+            gtag('config', 'G-GMDSNYHR5E');
         `,
         }}
       />
