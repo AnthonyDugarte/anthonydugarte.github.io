@@ -10,6 +10,13 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+
+    "import/resolver": {
+      "alias": {
+        "map": [["@components", "./components"]],
+        "extensions": [".js"]
+      }
     }
   },
   "env": {

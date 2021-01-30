@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css'
 
-import SEO from '../components/seo'
+import SEO from '@components/seo'
 
 const contacts = [
   {
