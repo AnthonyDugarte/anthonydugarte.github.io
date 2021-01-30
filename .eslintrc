@@ -14,7 +14,10 @@
 
     "import/resolver": {
       "alias": {
-        "map": [["@components", "./components"]],
+        "map": [
+          ["@components", "./components"],
+          ["@css", "./assets/css"]
+        ],
         "extensions": [".js"]
       }
     }

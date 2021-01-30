@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import 'tailwindcss/tailwind.css'
-
 import SEO from '@components/seo'
+
+import '@css/index.css'
 
 const contacts = [
   {
@@ -57,7 +57,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <SEO />
 
-      <div className="min-h-screen flex flex-col from-gray-50 via-blue-50 to-yellow-50 bg-gradient-to-br">
+      <div className="flex-1 flex flex-col from-gray-50 via-blue-50 to-yellow-50 bg-gradient-to-br">
         {/* <header /> */}
 
         <main className="flex-1 flex flex-col">
