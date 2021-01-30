@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </main>
 
-        <footer className="shadow-inner pt-3 pb-4 flex flex-row justify-between px-8">
+        <footer className="shadow-inner bg-gray-50 pt-3 pb-4 flex flex-row justify-between px-8">
           <div className="hidden md:block">
             <span>{new Date().getFullYear()}</span>
           </div>
