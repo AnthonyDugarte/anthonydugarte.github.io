@@ -20,9 +20,17 @@ export default function Home() {
         </div>
 
         <div className="mx-auto">
-          <Link href="mailto:contact@anthonydugarte.dev">
-            <a target="_blank" rel="noreferrer">
-              <img src="/icons/email.svg" className="w-12 h-w-12" alt="mail" />
+          <Link href="https://calendly.com/anthonydugarte">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center transition-transform hover:scale-110"
+            >
+              <img src="/icons/phone.svg" className="w-8 h-8" alt="mail" />
+              &nbsp;
+              <span className="font-mono text-lg font-semibold">
+                Let's talk
+              </span>
             </a>
           </Link>
         </div>
