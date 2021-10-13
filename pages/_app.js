@@ -71,7 +71,7 @@ function MyApp({ Component, pageProps }) {
 
           <div className="mx-auto md:mx-0 flex space-x-8">
             {contacts.map(({ src, href, alt }) => (
-              <Link href={href}>
+              <Link href={href} key={href}>
                 <a target="_blank" rel="noreferrer">
                   <img src={src} className="w-6 h-6" alt={alt} />
                 </a>
