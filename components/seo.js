@@ -7,7 +7,7 @@ import Script from 'next/script'
 export default function SEO({ title, description, image, article }) {
   const seo = {
     title: title || 'Anthony Dugarte',
-    description: description || 'Software Developer',
+    description: description || 'Software Engineer',
     // image: `${siteUrl}${image || defaultImage}`,
     // url: `${siteUrl}${pathname}`,
   }
