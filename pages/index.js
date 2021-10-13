@@ -14,7 +14,7 @@ export default function Home() {
                 width={1024}
                 height={1024}
                 layout="responsive"
-                className="transition-transform ease-in-out duration-500 hover:scale-105"
+                className="transform transition-transform ease-in-out duration-500 hover:scale-105"
               />
             </a>
           </Link>
@@ -25,7 +25,7 @@ export default function Home() {
             <a
               target="_blank"
               rel="noreferrer"
-              className="flex flex-row items-center transition-transform ease-in-out duration-300 hover:scale-110"
+              className="flex flex-row items-center transform transition-transform ease-in-out duration-300 hover:scale-110"
             >
               <img src="/icons/phone.svg" className="w-8 h-8" alt="mail" />
               &nbsp;
