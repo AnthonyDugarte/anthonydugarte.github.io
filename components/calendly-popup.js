@@ -11,7 +11,10 @@ export default function CalendlyPopup() {
           rel="stylesheet"
         />
       </Head>
-      <Script src="https://assets.calendly.com/assets/external/widget.js" />
+      <Script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        strategy="lazyOnload"
+      />
       {/* end of calendly gadget load */}
 
       <button
