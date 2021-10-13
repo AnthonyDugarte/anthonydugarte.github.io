@@ -73,7 +73,11 @@ function MyApp({ Component, pageProps }) {
             {contacts.map(({ src, href, alt }) => (
               <Link href={href} key={href}>
                 <a target="_blank" rel="noreferrer">
-                  <img src={src} className="w-6 h-6" alt={alt} />
+                  <img
+                    src={src}
+                    className="w-6 h-6 transform transition-transform ease-out duration-300 hover:scale-110"
+                    alt={alt}
+                  />
                 </a>
               </Link>
             ))}

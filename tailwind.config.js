@@ -6,10 +6,7 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {
-      width: ['group-hover'],
-      height: ['group-hover'],
-    },
+    extend: {},
   },
   plugins: [],
 }
