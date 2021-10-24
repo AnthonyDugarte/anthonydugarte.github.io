@@ -24,11 +24,11 @@ const contacts = [
     href: 'https://github.com/AnthonyDugarte',
     alt: 'github',
   },
-  {
-    src: '/icons/gitlab.svg',
-    href: 'https://gitlab.com/AnthonyDugarte',
-    alt: 'gitlab',
-  },
+  // {
+  //   src: '/icons/gitlab.svg',
+  //   href: 'https://gitlab.com/AnthonyDugarte',
+  //   alt: 'gitlab',
+  // },
   // {
   //   src: '/icons/instagram.svg',
   //   href: 'https://www.instagram.com/anthonydugarte8',
@@ -46,7 +46,7 @@ const contacts = [
   // },
   // {
   //   src: '/icons/whatsapp.svg',
-  //   href: 'https://wa.me/584121060750',
+  //   href: 'https://wa.me/584122666975',
   //   alt: 'whatsapp',
   // },
 ]
