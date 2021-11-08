@@ -19,15 +19,17 @@ export default function CalendlyPopup() {
 
       <button
         onClick={() =>
+          // eslint-disable-next-line no-undef
           Calendly.initPopupWidget({
             url: 'https://calendly.com/anthonydugarte?hide_landing_page_details=1',
           })
         }
         className="flex flex-row items-center transform transition-transform ease-in-out duration-300 hover:scale-110"
+        type="button"
       >
         <img src="/icons/phone.svg" className="w-8 h-8" alt="mail" />
         &nbsp;
-        <span className="font-mono text-lg font-semibold">Let's talk</span>
+        <span className="font-mono text-lg font-semibold">Let&apos;s talk</span>
       </button>
     </>
   )

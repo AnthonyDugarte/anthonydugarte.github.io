@@ -31,14 +31,10 @@
 
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
+    "plugin:@next/next/recommended",
     "airbnb",
     "airbnb/hooks",
     "prettier",
-    "prettier/react",
     "plugin:prettier/recommended"
   ],
 
