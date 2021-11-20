@@ -6,7 +6,7 @@ import '@css/index.css'
 const contacts = [
   {
     src: '/icons/email.svg',
-    href: 'mailto:contact@anthonydugarte.dev',
+    href: 'mailto:hello@anthonydugarte.dev',
     alt: 'mail',
   },
   // {
