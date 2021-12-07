@@ -27,7 +27,7 @@ export default function CalendlyPopup() {
         className="flex flex-row items-center transform transition-transform ease-in-out duration-300 hover:scale-110"
         type="button"
       >
-        <img src="/icons/phone.svg" className="w-8 h-8" alt="mail" />
+        <img src="/icons/calendar.svg" className="w-8 h-8" alt="mail" />
         &nbsp;
         <span className="font-mono text-lg font-semibold">Let&apos;s talk</span>
       </button>
