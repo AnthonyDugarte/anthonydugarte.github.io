@@ -4,7 +4,7 @@ import Head from 'next/head'
 export default function CalendlyPopup() {
   return (
     <>
-      {/* calendly gadget load */}
+      {/* calendly widget load */}
       <Head>
         <link
           href="https://assets.calendly.com/assets/external/widget.css"
@@ -15,7 +15,7 @@ export default function CalendlyPopup() {
         src="https://assets.calendly.com/assets/external/widget.js"
         strategy="lazyOnload"
       />
-      {/* end of calendly gadget load */}
+      {/* end of calendly widget load */}
 
       <button
         onClick={() =>
