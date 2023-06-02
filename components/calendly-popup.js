@@ -24,7 +24,7 @@ export default function CalendlyPopup() {
             url: 'https://calendly.com/anthonydugarte?hide_landing_page_details=1',
           })
         }
-        className="flex flex-row items-center transform transition-transform ease-in-out duration-300 hover:scale-110"
+        className="flex flex-row items-center transition-transform ease-in-out duration-300 hover:scale-110"
         type="button"
       >
         <img src="/icons/calendar.svg" className="w-8 h-8" alt="mail" />
