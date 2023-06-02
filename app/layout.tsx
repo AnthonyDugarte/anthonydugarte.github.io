@@ -59,8 +59,6 @@ export default function RootLayout({ children }: PropsWithChildren<{}>) {
         <SEO />
 
         <div className="flex-1 flex flex-col from-gray-50 via-blue-50 to-amber-50 bg-gradient-to-br">
-          {/* <header /> */}
-
           <main className="flex-1 flex flex-col">{children}</main>
 
           <footer className="shadow-inner bg-gray-50 pt-3 pb-4 flex flex-row justify-between px-8 sticky bottom-0">
