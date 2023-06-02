@@ -1,8 +1,7 @@
+import CalendlyPopup from '@/components/calendly-popup'
+import CodersRankWorkExperience from '@/components/codersrank-work-experience'
 import Image from 'next/image'
 import Link from 'next/link'
-
-import CalendlyPopup from '@components/calendly-popup'
-import CodersRankWorkExperience from '@components/codersrank-work-experience'
 
 export default function Home() {
   return (

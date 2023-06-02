@@ -1,7 +1,9 @@
-export default {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
     domains: ['www.gravatar.com'],
     formats: ['image/avif', 'image/webp'],
   },
-  swcMinify: true,
 }
+
+module.exports = nextConfig

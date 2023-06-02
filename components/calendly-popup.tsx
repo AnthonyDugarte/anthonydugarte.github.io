@@ -1,5 +1,8 @@
+'use client'
+
 import Script from 'next/script'
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function CalendlyPopup() {
   return (
@@ -19,7 +22,6 @@ export default function CalendlyPopup() {
 
       <button
         onClick={() =>
-          // eslint-disable-next-line no-undef
           Calendly.initPopupWidget({
             url: 'https://calendly.com/anthonydugarte?hide_landing_page_details=1',
           })
@@ -27,7 +29,13 @@ export default function CalendlyPopup() {
         className="flex flex-row items-center transition-transform ease-in-out duration-300 hover:scale-110"
         type="button"
       >
-        <img src="/icons/calendar.svg" className="w-8 h-8" alt="mail" />
+        <Image
+          src="/icons/calendar.svg"
+          className="w-8 h-8"
+          alt="mail"
+          width={32}
+          height={32}
+        />
         &nbsp;
         <span className="font-mono text-lg font-semibold">Let&apos;s talk</span>
       </button>

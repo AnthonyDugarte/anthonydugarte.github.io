@@ -1,10 +1,14 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Head from 'next/head'
 import Script from 'next/script'
 
-// eslint-disable-next-line no-unused-vars
-export default function SEO({ title, description, image, article }) {
+export interface SEOProps {
+  title?: string
+  description?: string
+  image?: string
+  article?: boolean
+}
+export default function SEO({ title, description, image, article }: SEOProps) {
   const seo = {
     title: title || 'Anthony Dugarte',
     description: description || 'Software Engineer',
@@ -70,17 +74,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       {/* End Google Tag Manager */}
     </>
   )
-}
-
-SEO.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.string,
-  article: PropTypes.bool,
-}
-SEO.defaultProps = {
-  title: null,
-  description: null,
-  image: null,
-  article: false,
 }
