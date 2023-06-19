@@ -26,9 +26,9 @@ export default function Home() {
         <CalendlyPopup />
       </div>
 
-      <div className="mx-auto px-2">
+{/*       <div className="mx-auto px-2">
         <CodersRankWorkExperience />
-      </div>
+      </div> */}
     </main>
   )
 }
