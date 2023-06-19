@@ -1,24 +1,15 @@
 'use client'
 
-import Script from 'next/script'
-import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
 
 export default function CalendlyPopup() {
   return (
     <>
-      {/* calendly widget load */}
-      <Head>
-        <link
-          href="https://assets.calendly.com/assets/external/widget.css"
-          rel="stylesheet"
-        />
-      </Head>
       <Script
         src="https://assets.calendly.com/assets/external/widget.js"
         strategy="lazyOnload"
       />
-      {/* end of calendly widget load */}
 
       <button
         onClick={() =>
